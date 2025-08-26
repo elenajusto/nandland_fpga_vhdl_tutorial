@@ -20,3 +20,6 @@ architecture rtl of equation_f3 is
 begin
    output_F3 <= (not(input_L) and not(input_M) and input_N) or (input_L and input_M) ;
 end architecture;
+
+-- See alternative solution that uses intermediate signals
+-- Alternative solution is more closer to what the discrete gates look like
