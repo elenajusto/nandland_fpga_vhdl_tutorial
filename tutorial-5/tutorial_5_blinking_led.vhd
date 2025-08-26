@@ -1,44 +1,27 @@
 -- File: Top Level
 
--- Libraries
-library ieee;
-use ieee.std_logic_1164.all;
+-- ***** Project Entities *****
 
---
+-- Definition: 1 Hz Counter
 
+-- Definition: 10 Hz Counter
 
+-- Definition: 50 Hz Counter
 
+-- Definition: 100 Hz Counter
 
+-- Definition: Switch 1
 
+-- Definition: Switch 2
 
+-- Definition: Enable
 
+-- Definition: Multiplixer
 
-
-
-
-
-
-
-
-
--- TODO: Remove placeholder
 -- Definition: AND Gate
 
--- Interface 
--- This defines the and_gate IO
-entity and_gate_new is
-    port (
-        input_1   : in std_logic;
-        input_2 : in std_logic;
-        result : out std_logic
-    );
-end entity;
-
--- Functionality
--- This is an architecture called "rtl" of type "and_gate" 
-architecture rtl of and_gate_new is
-    signal andGate : std_logic;
-begin
-    andGate <= input_1 and input_2;
-    result <= andGate;
-end architecture;
+-- ***** Project Interaction *****
+-- 1 Hz clock signal entering 1 Hz counter
+-- 10 Hz clock signal entering 10 Hz counter
+-- 50 Hz clock signal entering 50 Hz counter
+-- 100 Hz clock signal entering 100 Hz counter
