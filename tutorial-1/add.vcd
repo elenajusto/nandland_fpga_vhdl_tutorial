@@ -1,0 +1,56 @@
+$date
+  Sat Sep 06 17:49:56 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module and_gate_test_bench $end
+$var reg 1 ! input_1 $end
+$var reg 1 " input_2 $end
+$var reg 1 # result $end
+$scope module and_gate $end
+$var reg 1 $ input_1 $end
+$var reg 1 % input_2 $end
+$var reg 1 & result $end
+$var reg 1 ' andgate $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+X!
+X"
+X#
+X$
+X%
+X&
+X'
+#1000000
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+#2000000
+1"
+1%
+#3000000
+1!
+0"
+1$
+0%
+#4000000
+1"
+1#
+1%
+1&
+1'
+#5000000
