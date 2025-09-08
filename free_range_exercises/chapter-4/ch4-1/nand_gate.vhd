@@ -8,7 +8,7 @@ use ieee.std_logic_1164.all;
 -- the output signal name is F.
 
 -- Elena Solution:
-entity nand_gate_3input is
+entity nand_gate_def is
     port (
         input_A : in std_logic;
         input_B : in std_logic;
@@ -17,7 +17,7 @@ entity nand_gate_3input is
     );
 end entity;
 
-architecture rtl of nand_gate_3input is
+architecture rtl of nand_gate_def is
 begin
     output_F <=  not (input_A and input_b and input_C);
 end architecture;

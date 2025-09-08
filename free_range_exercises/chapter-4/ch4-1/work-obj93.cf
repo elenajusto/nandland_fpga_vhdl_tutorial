@@ -1,0 +1,7 @@
+v 4
+file . ".\nand_gate.vhd" "a8d62669030d6d601c53bdc5be5da1c0d38fc211" "20250908234220.201":
+  entity nand_gate_def at 2( 14) + 0 on 13;
+  architecture rtl of nand_gate_def at 20( 452) + 0 on 14;
+file . ".\nand_gate_test.vhd" "e11420de27050f42da997682d48b7434be3359c3" "20250908235057.285":
+  entity nand_gate_test_bench at 1( 0) + 0 on 17;
+  architecture test of nand_gate_test_bench at 8( 141) + 0 on 18;
