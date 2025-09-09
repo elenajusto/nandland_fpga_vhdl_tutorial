@@ -5,7 +5,8 @@ use ieee.std_logic_1164.all;
 -- Chapter 4 - Example 2
 -- Write the VHDL code to implement the function  
 -- expressed by the following logic equation: 
--- F3 = L_bar · M_bar · N + L · M
+-- F3 = L' * M' * N + L * M
+-- F3 = (L' AND M' AND N') OR (L AND M)
 
 entity equation_f3 is
     port (

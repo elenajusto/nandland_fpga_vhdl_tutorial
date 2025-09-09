@@ -1,0 +1,7 @@
+v 4
+file . ".\chapter_4-2.vhd" "0808f7378c0d392d5ace79ad7fbccf0b37ebef23" "20250909002406.058":
+  entity equation_f3 at 2( 14) + 0 on 15;
+  architecture rtl of equation_f3 at 20( 451) + 0 on 16;
+file . ".\equationf3_test.vhd" "6dbe496a737d0efa2e79c8769ea9c54a55454c2b" "20250909002257.976":
+  entity equation_f3_test_bench at 1( 0) + 0 on 13;
+  architecture test of equation_f3_test_bench at 8( 145) + 0 on 14;
